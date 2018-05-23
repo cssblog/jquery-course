@@ -1,0 +1,66 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 14px;
+}
+
+body {
+	direction: rtl;
+	font-family: "IranSans";
+	background: #d1e1e2;
+	width: 500px;
+	margin: 0 auto;
+}
+h1 {
+	text-align: center;
+}
+.form {
+	display: flex;
+	margin-bottom: 12px;
+}
+.form input {
+	border: none;
+	font-size: 1.2rem;
+	background-color: #fff;
+	border-radius: 4px;
+	flex-grow: 1;
+	margin-left: 10px;
+	line-height: 40px;
+	padding: 0 10px;
+	font-family: inherit;
+}
+.form button {
+	background: #3e7579;
+	color: #fff;
+	border: none;
+	padding: 0 20px;
+	font-family: inherit;
+	border-radius: 4px;
+}
+
+.items {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.items li {
+	margin-bottom: 6px;
+	background: #fff;
+	padding: 10px;
+	border-radius: 4px;
+	border-bottom: 1px solid #b6c0c1;
+}
+.items li .item-text {
+	font-size: 1em;
+	margin: 0;
+}
+.items li .delete {
+	color: red;
+}
+.template {
+	display: none;
+}
+
+

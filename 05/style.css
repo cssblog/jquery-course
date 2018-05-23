@@ -1,0 +1,42 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 14px;
+}
+
+body {
+	padding: 20px;
+	direction: rtl;
+	font-family: "IranSans";
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+	background: #e0e0e0;
+	border-radius: 5px 5px 0 0 ;
+	padding: 10px 20px;
+	display: inline-block;
+	color: #000;
+}
+ul li.active {
+	background: black;
+	color: #fff;
+}
+
+ul li a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.tab-contents > div {
+	display: none;
+}
+
+

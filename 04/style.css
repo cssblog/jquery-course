@@ -1,0 +1,35 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 14px;
+}
+
+body {
+	padding: 20px;
+	direction: rtl;
+	font-family: "IranSans";
+}
+
+#rules {
+	padding: 10px;
+	background: #fafafa;
+	border: 1px solid #e0e0e0;
+	margin: 20px 0 0 0;
+	display: none;
+}
+
+label a {
+	color: #467cee;
+}
+
+button {
+	border: none;
+	background-color: #bfe29d;
+	padding: 10px 20px;
+	border-radius: 4px;
+	margin: 20px 0;
+	font-family: inherit;
+	font-size: 1rem;
+}
